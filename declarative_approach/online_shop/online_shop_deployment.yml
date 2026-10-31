@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: online-shop
 spec:
-  replicas: 3 #test argocd
+  replicas: 2 #test argocd
   selector:
     matchLabels:
       app: online-shop
